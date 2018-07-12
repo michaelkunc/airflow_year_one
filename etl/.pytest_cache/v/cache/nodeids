@@ -1,0 +1,4 @@
+[
+  "test_etl.py::test_get_team_size",
+  "test_etl.py::test_get_team_members"
+]

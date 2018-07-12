@@ -17,6 +17,8 @@ services:
             - EXECUTOR=Local
         volumes:
             - ./dags:/usr/local/airflow/dags
+            # have to mount the local etl directory if you want your logic stored in airflow
+            - ./etl:/usr/local/airflow/etl
             # Uncomment to include custom plugins
             # - ./plugins:/usr/local/airflow/plugins
         ports:
