@@ -13,4 +13,5 @@ def write_team():
         f.write(str(get_team(4)))
 
 
-write_team()
+if __name__ == "__main__":
+    write_team()
